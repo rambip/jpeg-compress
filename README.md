@@ -5,7 +5,7 @@ Project to create a tool able to convert and compress images in the browser !
 
 This is powered by <a style="background-image: https://webassembly.org/css/webassembly.svg; width:100; heigt:50" href="https://webassembly.org"></a>
 
-<a href="https://webassembly.org"><img src="http://webassembly.org/css/webassembly.svg" height="48" width="100" ></a> 
+<a href="https://webassembly.org" target="_blank"><img src="http://webassembly.org/css/webassembly.svg" height="48" width="100" ></a> 
 
 <br>
 
