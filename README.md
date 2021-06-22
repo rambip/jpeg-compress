@@ -22,7 +22,7 @@ Then, you will have a website ready to deploy inside `jpeg-compress/build` !
 If you want to test it in your browser, just run:
 
 ```
-npm test
+npm run serve
 ```
 It will start a local server
 
