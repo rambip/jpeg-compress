@@ -3,7 +3,7 @@ Jpeg convertor
 
 Project to create a tool able to convert and compress images in the browser !
 
-This is powered by ![](https://webassembly.org/css/webassembly.svg = 100x50)
+This is powered by ![](https://webassembly.org/css/webassembly.svg =100x50)
 
 
 # Installation
