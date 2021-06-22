@@ -9,6 +9,24 @@ This is powered by <a style="background-image: https://webassembly.org/css/webas
 
 <br>
 
+# Prerequisite
+
+To build this project on linux, you will need a package called "libncurses5".
+
+## On debian-based distros:
+
+```
+sudo apt install libncurses5
+```
+
+## On arch-based distros:
+
+```
+sudo pacman -S ncurses
+sudo ln -s /usr/lib/libtinfo.so.6 /usr/lib/libtinfo.so.5
+```
+
+
 # Installation
 
 ```bash
