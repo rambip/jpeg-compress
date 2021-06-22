@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compresseur</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+button {
+    margin: 10px;
+    padding: 8px 20px;
+    background: silver;
+    color: aliceBlue;
+    border: 2px solid grey;
+    border-radius: 15px;
+    font-size: 1em;
+    font-family: verdana;
+    font-weight: bold;
+}
+        </style>
+    </head>
+    <body>
+        <div class="">
+            <div id="selection">
+            <h3>Choisissez vos fichiers:</h3>
+            <button id="open">Ouvrir</button>
+            </div>
+            <h3> Apperçu:</h3>
+            <canvas id="preview" style="margin: 0"></canvas>
+            <div> <button id="previous" style="visibility:hidden">←</button><button id="next" style="visibility:hidden">→</button></div>
+            <span style="font-weight: bold"> Qualité: </span> <span id="value"></span>
+            <div> <input type="range" min="1" max="100" value="30" class="slider" id="quality" style="visibility: hidden"> </div>
+            <input id="file-input" type="file" name="name" multiple style="display: none;" />
+            <div id="size" style="color:DarkSlateGrey; margin: 15px"></div>
+            <button id="conv" style="visibility:hidden; position: absolute; bottom:60px; left: 50%">Tout convertir</button>
+        </div>
+        <a id="a"></a>
+        <script type="module" src="./index.js"></script>
+    </body>
+</html>

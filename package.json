@@ -1,0 +1,34 @@
+{
+  "name": "jpeg-compress",
+  "version": "1.0.0",
+  "description": "Tool to compress a lot of images to jpeg in your browser",
+  "main": "index.html",
+  "scripts": {
+    "build": "snowpack build",
+    "serve": "serve build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambip/jpeg-compress.git"
+  },
+  "keywords": [
+    "webassembly",
+    "jpeg",
+    "image"
+  ],
+  "author": "Antonin P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rambip/jpeg-compress/issues"
+  },
+  "homepage": "https://github.com/rambip/jpeg-compress#readme",
+  "devDependencies": {
+    "@snowpack/plugin-build-script": "^2.1.0",
+    "serve": "^12.0.0",
+    "snowpack": "^3.5.9",
+    "webassembly": "^0.11.0"
+  },
+  "dependencies": {
+    "client-zip": "^2.0.0"
+  }
+}
